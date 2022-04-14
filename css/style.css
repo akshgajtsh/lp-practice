@@ -1,4 +1,72 @@
 @charset "utf-8";
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--icon {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.blue--btn {
+    color: #fff;
+    background-color: #689cc5;
+    font-size: 16px;
+    margin: 1em 1em;
+}
+
 .keyvisual {
     background-image: url(../img/keyvisual/keyvisual.jpg);
+}
+
+h1 {
+    padding-top: 400px;
+    font-size: 65px;
+    font-weight: 400;
+    color: #90a6df;
+    text-align: center;
+}
+
+.policy {
+    padding-top: 30px;
+    padding-bottom: 400px;
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.work {
+    background: #e2eff8;
+}
+
+.pc--icon {
+    width: 250px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    display: flex;
+    float: left;
+}
+
+h2 {
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.work--area {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 35px;
+}
+
+.skills--area {
+    padding-top: 50px;
 }
