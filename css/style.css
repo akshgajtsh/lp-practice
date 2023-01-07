@@ -202,3 +202,67 @@ footer{
         width: 100%;
     }
 }
+
+/*レスポンシブ（SP）*/
+@media screen and (max-width: 767px) {
+    .inner{
+        width: 97%;
+    }
+
+    .blue-btn{
+        display: flex;
+        height: 50px;
+        width: 50px;
+        right: 16px;
+        top: 32px;
+        z-index: 10;
+        font-size: 0px;
+        background-color: #7a7f80;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .keyvisual-sub{
+        font-size: 30px;
+    }
+    
+    .work{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .pc-icon{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+
+    .skill-icon img{
+        display: block;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .skill-item:nth-child(3n){
+        margin-bottom: 80pxS;
+    }
+
+    th{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    td{
+        font-size: 10px;
+    }
+
+    .sns{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
