@@ -5,9 +5,6 @@
 header {
     background-color: #fff;
     width: 100%;
-    /* position: fixed;
-    top: 0;
-    z-index: 10; */
 }
 
 .container {
@@ -157,4 +154,67 @@ header {
 
 .plan_table tr:nth-child(even) {
     background: #f9f9f9;
+}
+
+.sns {
+    background: #e3f2fd;
+    padding: 200px 0;
+}
+
+.sns_content {
+    text-align: center;
+}
+
+.fab {
+    font-size: 40px;
+    width: 185px;
+    color: #8c8c8c;
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+.sns .fas {
+    font-size: 40px;
+    width: 185px;
+    color: #8c8c8c;
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+footer {
+    background: #cfd8dc;
+    padding: 25px 0;
+}
+
+.copy_right {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+/* TAB版 */
+@media(max-width: 1199px) {
+    .keyvisual {
+        padding: 250px 0;
+    }
+
+    .news {
+        padding: 50px 0;
+        flex-direction: column;
+    }
+
+    .news img{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .news_content {
+        width: 100%;
+    }
+
+    .news_text {
+        margin: 0 auto;
+    }
 }
