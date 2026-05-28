@@ -25,6 +25,11 @@ header {
     padding: 10px;
     text-decoration: none;
     font-size: 14px;
+    transition: color 0.3s;
+}
+
+.contact_ui:hover {
+    color: #333;
 }
 
 .keyvisual {
@@ -104,6 +109,12 @@ header {
 .skills_item img {
     width: 300px;
     height: 300px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.skills_item img:hover {
+    opacity: 1;
 }
 
 .plan {
@@ -170,6 +181,7 @@ header {
     color: #8c8c8c;
     overflow: hidden;
     padding: 25px 0;
+    transition: background-color 0.5s;
 }
 
 .sns .fas {
@@ -178,6 +190,12 @@ header {
     color: #8c8c8c;
     overflow: hidden;
     padding: 25px 0;
+    transition: background-color 0.5s;
+}
+
+.fab:hover,
+.sns .fas:hover {
+    background-color: #fff;
 }
 
 footer {
