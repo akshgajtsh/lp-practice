@@ -27,7 +27,7 @@ function animateRounds() {
     anime({
         targets: '.round',
         translateX: function() {
-        return anime.random(-800, 1000);
+            return anime.random(-800, 1000);
         },
         translateY: function () {
             return anime.random(-500, 1000);
